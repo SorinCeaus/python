@@ -10,7 +10,7 @@ try:
       print sor
       sor=f.readline()
    f.close()
-   print '-> fajl vege.'
+   print '-> file ends.'
 
 except IOError, e:
-   print 'Nincs ilyen fajl:', fajl
+   print 'No such file:', fajl
