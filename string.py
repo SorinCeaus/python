@@ -1,9 +1,8 @@
-#!/usr/bin/env python
+s='Facebook'
+print s[:3]
+
 sztring1="egy"
 print sztring1
-
-#if str.find("aaa") == 0:
-#	print 'found'
 
 sztring2="ketto"
 print sztring2
