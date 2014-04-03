@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-fajl='domainowners2'
+fajl='file.py'
 
 try:
 
