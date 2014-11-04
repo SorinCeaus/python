@@ -1,25 +1,9 @@
-# CAE Engineering - szakmai teszt
-# Tue Nov  4 20:17:27 CET 2014
-# They wanted me to use an weird scripting language 'nasal' to solve it.
-# Here is it in Python :)
-# Adding 100 random elements of numbers to an array (list)
-# Calculate an average of the numbers in the array 
-
-import random
-
-#### fill array with 100 random numbers between 1-100
-a=[]
-i=0
-print "Adding elements to array."
-for i in range(0,100):
-	a.append(random.randint(1,50))
-	#print "Random element in array: %d" % a[i]
-print "%d of elements to array added." % len(a)
-
-#### calculate average
-average=0
-for i in a:
-	average=average+i
-
-result=average/100
-print "Average is: %d" % result
+list1 = [4,1,2,5,7,8,5,34,67,99,100]
+print list1
+list2 = ['xyz','zara','abc','quartus','israel']
+print list2
+list3 = ['9','5','0','2']
+print list3
+print 'elements, minimum value:', min(list1)
+print 'strings, minimum value:', min(list2)
+print 'strings elements, minimum value:', min(list3)
