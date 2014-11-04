@@ -7,13 +7,13 @@
 
 import random
 
-#### fill array with 100 random numbers between 1-100
+#### fill array with 100 random numbers between
 a=[]
 i=0
-print "Adding elements to array."
+print "Adding random elements to array."
 for i in range(0,100):
-	a.append(random.randint(1,50))
-	#print "Random element in array: %d" % a[i]
+	a.append(random.randint(1,100))
+	print "Random element in array: %d" % a[i]
 print "%d of elements to array added." % len(a)
 
 #### calculate average
