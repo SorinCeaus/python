@@ -1,4 +1,4 @@
-# CAE Engineering - szakmai teszt
+# xxx yyy - szakmai teszt
 # Tue Nov  4 20:17:27 CET 2014
 # They wanted me to use an weird scripting language 'nasal' to solve it.
 # Here is it in Python :)
