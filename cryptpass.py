@@ -1,5 +1,7 @@
+# requires python 3
 import crypt
 import sys
+
 salt=crypt.mksalt(crypt.METHOD_SHA512)
 try:
         password=sys.argv[1]
